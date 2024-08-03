@@ -90,9 +90,11 @@ header {
     font-size: 36px;
     margin-bottom: 20px;
     max-width: 496px;
+    visibility: hidden;
 }
 
 .visually-hidden {
+    visibility: hidden;
     position: absolute;
     width: 1px;
     height: 1px;
