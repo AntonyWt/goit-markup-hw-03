@@ -20,7 +20,14 @@ header {
     display: flex;
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -28,6 +35,7 @@ header {
     font-weight: bold;
     color: #fff;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .nav-list {
