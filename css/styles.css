@@ -1,3 +1,4 @@
+
 /* Styles for the main elements */
 body {
     font-family: 'Roboto', sans-serif;
@@ -13,18 +14,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc
-}
-.container{
-    display: flex;
-}
-@media (max-width: 1158px) {
-    .container {
-        width: 100%;
-        /* Розтягує контейнер на всю ширину екрана при ширині менше 1158px */
-        padding: 0 15px;
-        /* Зберігає відступи зліва і справа */
-    }
 }
 
 .logo {
